@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Неуспішна оплата</title>
+    <style>
+        body {
+            background-color: #F44336;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .icon::before {
+            content: '✖';
+            font-size: 48px;
+            color: #F44336;
+        }
+        .message {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon"></div>
+    <div class="message">Неуспішна оплата</div>
+</body>
+</html>
